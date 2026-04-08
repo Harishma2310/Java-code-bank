@@ -12,7 +12,7 @@ class Main {
 
     static LinkedList head = null;
     static LinkedList temp = null;
-    // Insert at end
+    // Insert at Beginning
     public void insert(int data) {
         LinkedList newNode = new LinkedList(data, null);
         // If list is empty
